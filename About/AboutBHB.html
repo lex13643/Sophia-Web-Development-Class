@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Book Haven Bookstore | About Us</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="AboutBHB.css" />
+    <script type="module" src="AboutBHB.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <img src="../Images/BHB-Logo.png" alt="Book Haven Bookstore logo" width="100">
+      <h1>Book Haven Bookstore</h1>
+      <nav>
+        <ul>
+          <li><a href="../Home/HomeBHB.html">Home</a></li>
+          <li><a href="../Gallery/GalleryBHB.html">Gallery</a></li>
+          <li><a href="../Testimonial/TestBHB.html">Testimonials</a></li>
+          <li><a href="AboutBHB.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+       <!-- About section -->
+      <section>
+        <img src="../Images/Sticker_Set.png" alt="Set of four Book Haven Bookstore stickers" width="400" />
+        <h2>About Us</h2>
+        <p>Book Haven Bookstore is a .</p>
+      </section>
+
+      <!-- Hours section -->
+      <section>
+        <h2>Hours</h2>
+        <ul>
+          <li>Monday–Friday: 9 a.m. to 8 p.m.</li>
+          <li>Saturday: 10 a.m. to 6 p.m.</li>
+          <li>Sunday: 11 a.m. to 5 p.m.</li>
+        </ul>
+      </section>
+
+      <!-- Contact / custom order form -->
+      <section>
+        <h2>Send Us a Message</h2>
+        <form>
+          <fieldset>
+            <legend>Feedback or Custom Order</legend>
+
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required />
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required />
+
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="email" required />
+
+            <label for="request-type">Request Type:</label>
+            <select id="request-type" name="request-type">
+              <option value="feedback">General Feedback</option>
+              <option value="custom-order">Custom Order</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="8" placeholder="Share your feedback or describe the item you'd like to order" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <section>
+        <h2>Subscribe Via Email</h2>
+        <form>
+          <label for="subscribe-email">Email:</label>
+          <input type="email" id="subscribe-email" name="email" placeholder="Insert your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+
+      <p>
+        <a href="../About/AboutBHB.html">About Us | Contact Us</a>
+      </p>
+
+      <ul>
+        <li><a href="https://Facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://Instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="https://reddit.com" target="_blank">Reddit</a></li>
+        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+      </ul>
+
+      <p>&copy; 2026 Book Haven Bookstore.</p>
+    </footer>
+
+    </body>
+
+  </html>
+
